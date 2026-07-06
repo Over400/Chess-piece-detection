@@ -9,7 +9,7 @@
   tannergi/chess-piece-detection
 
 사용법:
-    cd ~/경로파일일
+    cd ~/디렉터리 경로
     python3 model_alpha_v2.py prepare --source huggingface
     python3 model_alpha_v2.py train --epochs 50
     python3 model_alpha_v2.py predict --source 이미지경로.jpg
